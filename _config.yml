@@ -1,10 +1,10 @@
 nav:
   Home: /
-  About: /about/
-  Writing: /archives/
-  Projects: http://github.com/probberechts
+  About: /#about
+  Archives: /archives/
+  Projects: /#demos
 
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/dmkcode
 
 customize:
     gravatar:
@@ -13,24 +13,23 @@ customize:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.png
+        url: /images/dmkcode_images/avatar.png
         gravatar: false
     favicon: 
       # eg. generate with http://realfavicongenerator.net/
       desktop:
-        url: /images/favicon.ico
+        url: /images/favicons/favicon.ico
         gravatar: false
       android:
-        url: /images/favicon-192x192.png
+        url: /images/favicons/android-chrome-192x192.png
         gravator: false
       apple:
-        url: /images/apple-touch-icon.png
+        url: /images/favicons/apple-touch-icon.png
         gravator: false
     social_links:
-        github: http://github.com/probberechts/cactus-dark
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: http://github.com/dmkcode
+        twitter: https://twitter.com/DMKCode
+        linkedin: https://www.linkedin.com/in/davidkananda/
     show_all_posts: false
     post_count: 5
     highlight: rainbow
@@ -40,7 +39,7 @@ rss: false
 
 # Plugins
 plugins:
-    disqus_shortname: # Disqus Comments Shortname
+    disqus_shortname: DMKCode # Disqus Comments Shortname
     google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
